@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECD33D8EBA2CA6AE104D57DA /* Pods_SWPhotoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AAE896D615097F71ADF66C /* Pods_SWPhotoApp.framework */; };
+		F2269E51211E841F0086B24E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2269E50211E841F0086B24E /* AppDelegate.swift */; };
+		F2269E53211E841F0086B24E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2269E52211E841F0086B24E /* ViewController.swift */; };
+		F2269E56211E841F0086B24E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2269E54211E841F0086B24E /* Main.storyboard */; };
+		F2269E59211E841F0086B24E /* SWPhotoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2269E57211E841F0086B24E /* SWPhotoApp.xcdatamodeld */; };
+		F2269E5B211E842F0086B24E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2269E5A211E842F0086B24E /* Assets.xcassets */; };
+		F2269E5E211E842F0086B24E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2269E5C211E842F0086B24E /* LaunchScreen.storyboard */; };
+		F2269E69211E84300086B24E /* SWPhotoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2269E68211E84300086B24E /* SWPhotoAppTests.swift */; };
+		F2269E74211E84300086B24E /* SWPhotoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2269E73211E84300086B24E /* SWPhotoAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2269E65211E84300086B24E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2269E45211E841E0086B24E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2269E4C211E841F0086B24E;
+			remoteInfo = SWPhotoApp;
+		};
+		F2269E70211E84300086B24E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2269E45211E841E0086B24E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2269E4C211E841F0086B24E;
+			remoteInfo = SWPhotoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25D0F5D7D930F9B551FEB0DB /* Pods-SWPhotoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWPhotoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWPhotoApp/Pods-SWPhotoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		77C85696CA97383E06CAD5BE /* Pods-SWPhotoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWPhotoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWPhotoApp/Pods-SWPhotoApp.release.xcconfig"; sourceTree = "<group>"; };
+		B6AAE896D615097F71ADF66C /* Pods_SWPhotoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWPhotoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2269E4D211E841F0086B24E /* SWPhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWPhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2269E50211E841F0086B24E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2269E52211E841F0086B24E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2269E55211E841F0086B24E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2269E58211E841F0086B24E /* SWPhotoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SWPhotoApp.xcdatamodel; sourceTree = "<group>"; };
+		F2269E5A211E842F0086B24E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2269E5D211E842F0086B24E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2269E5F211E842F0086B24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2269E64211E84300086B24E /* SWPhotoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWPhotoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2269E68211E84300086B24E /* SWPhotoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPhotoAppTests.swift; sourceTree = "<group>"; };
+		F2269E6A211E84300086B24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2269E6F211E84300086B24E /* SWPhotoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWPhotoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2269E73211E84300086B24E /* SWPhotoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPhotoAppUITests.swift; sourceTree = "<group>"; };
+		F2269E75211E84300086B24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2269E4A211E841F0086B24E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD33D8EBA2CA6AE104D57DA /* Pods_SWPhotoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2269E61211E84300086B24E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2269E6C211E84300086B24E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2F133578F3801711CC40DED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6AAE896D615097F71ADF66C /* Pods_SWPhotoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D15A791C3F09834758022936 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25D0F5D7D930F9B551FEB0DB /* Pods-SWPhotoApp.debug.xcconfig */,
+				77C85696CA97383E06CAD5BE /* Pods-SWPhotoApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2269E44211E841E0086B24E = {
+			isa = PBXGroup;
+			children = (
+				F2269E4F211E841F0086B24E /* SWPhotoApp */,
+				F2269E67211E84300086B24E /* SWPhotoAppTests */,
+				F2269E72211E84300086B24E /* SWPhotoAppUITests */,
+				F2269E4E211E841F0086B24E /* Products */,
+				D15A791C3F09834758022936 /* Pods */,
+				C2F133578F3801711CC40DED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2269E4E211E841F0086B24E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2269E4D211E841F0086B24E /* SWPhotoApp.app */,
+				F2269E64211E84300086B24E /* SWPhotoAppTests.xctest */,
+				F2269E6F211E84300086B24E /* SWPhotoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2269E4F211E841F0086B24E /* SWPhotoApp */ = {
+			isa = PBXGroup;
+			children = (
+				F2269E50211E841F0086B24E /* AppDelegate.swift */,
+				F2269E52211E841F0086B24E /* ViewController.swift */,
+				F2269E54211E841F0086B24E /* Main.storyboard */,
+				F2269E5A211E842F0086B24E /* Assets.xcassets */,
+				F2269E5C211E842F0086B24E /* LaunchScreen.storyboard */,
+				F2269E5F211E842F0086B24E /* Info.plist */,
+				F2269E57211E841F0086B24E /* SWPhotoApp.xcdatamodeld */,
+			);
+			path = SWPhotoApp;
+			sourceTree = "<group>";
+		};
+		F2269E67211E84300086B24E /* SWPhotoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2269E68211E84300086B24E /* SWPhotoAppTests.swift */,
+				F2269E6A211E84300086B24E /* Info.plist */,
+			);
+			path = SWPhotoAppTests;
+			sourceTree = "<group>";
+		};
+		F2269E72211E84300086B24E /* SWPhotoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2269E73211E84300086B24E /* SWPhotoAppUITests.swift */,
+				F2269E75211E84300086B24E /* Info.plist */,
+			);
+			path = SWPhotoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2269E4C211E841F0086B24E /* SWPhotoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2269E78211E84300086B24E /* Build configuration list for PBXNativeTarget "SWPhotoApp" */;
+			buildPhases = (
+				68B4E60CD6EAF2C411BB908A /* [CP] Check Pods Manifest.lock */,
+				F2269E49211E841F0086B24E /* Sources */,
+				F2269E4A211E841F0086B24E /* Frameworks */,
+				F2269E4B211E841F0086B24E /* Resources */,
+				02152D62BEB90A8A1FE29560 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWPhotoApp;
+			productName = SWPhotoApp;
+			productReference = F2269E4D211E841F0086B24E /* SWPhotoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2269E63211E84300086B24E /* SWPhotoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2269E7B211E84300086B24E /* Build configuration list for PBXNativeTarget "SWPhotoAppTests" */;
+			buildPhases = (
+				F2269E60211E84300086B24E /* Sources */,
+				F2269E61211E84300086B24E /* Frameworks */,
+				F2269E62211E84300086B24E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2269E66211E84300086B24E /* PBXTargetDependency */,
+			);
+			name = SWPhotoAppTests;
+			productName = SWPhotoAppTests;
+			productReference = F2269E64211E84300086B24E /* SWPhotoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2269E6E211E84300086B24E /* SWPhotoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2269E7E211E84300086B24E /* Build configuration list for PBXNativeTarget "SWPhotoAppUITests" */;
+			buildPhases = (
+				F2269E6B211E84300086B24E /* Sources */,
+				F2269E6C211E84300086B24E /* Frameworks */,
+				F2269E6D211E84300086B24E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2269E71211E84300086B24E /* PBXTargetDependency */,
+			);
+			name = SWPhotoAppUITests;
+			productName = SWPhotoAppUITests;
+			productReference = F2269E6F211E84300086B24E /* SWPhotoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2269E45211E841E0086B24E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = lhl;
+				TargetAttributes = {
+					F2269E4C211E841F0086B24E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F2269E63211E84300086B24E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F2269E4C211E841F0086B24E;
+					};
+					F2269E6E211E84300086B24E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F2269E4C211E841F0086B24E;
+					};
+				};
+			};
+			buildConfigurationList = F2269E48211E841E0086B24E /* Build configuration list for PBXProject "SWPhotoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2269E44211E841E0086B24E;
+			productRefGroup = F2269E4E211E841F0086B24E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2269E4C211E841F0086B24E /* SWPhotoApp */,
+				F2269E63211E84300086B24E /* SWPhotoAppTests */,
+				F2269E6E211E84300086B24E /* SWPhotoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2269E4B211E841F0086B24E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2269E5E211E842F0086B24E /* LaunchScreen.storyboard in Resources */,
+				F2269E5B211E842F0086B24E /* Assets.xcassets in Resources */,
+				F2269E56211E841F0086B24E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2269E62211E84300086B24E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2269E6D211E84300086B24E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02152D62BEB90A8A1FE29560 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SWPhotoApp/Pods-SWPhotoApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SKPhotoBrowser/SKPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SKPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWPhotoApp/Pods-SWPhotoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68B4E60CD6EAF2C411BB908A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SWPhotoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2269E49211E841F0086B24E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2269E59211E841F0086B24E /* SWPhotoApp.xcdatamodeld in Sources */,
+				F2269E53211E841F0086B24E /* ViewController.swift in Sources */,
+				F2269E51211E841F0086B24E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2269E60211E84300086B24E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2269E69211E84300086B24E /* SWPhotoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2269E6B211E84300086B24E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2269E74211E84300086B24E /* SWPhotoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2269E66211E84300086B24E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2269E4C211E841F0086B24E /* SWPhotoApp */;
+			targetProxy = F2269E65211E84300086B24E /* PBXContainerItemProxy */;
+		};
+		F2269E71211E84300086B24E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2269E4C211E841F0086B24E /* SWPhotoApp */;
+			targetProxy = F2269E70211E84300086B24E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2269E54211E841F0086B24E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2269E55211E841F0086B24E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2269E5C211E842F0086B24E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2269E5D211E842F0086B24E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2269E76211E84300086B24E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2269E77211E84300086B24E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2269E79211E84300086B24E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D0F5D7D930F9B551FEB0DB /* Pods-SWPhotoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTT4HQ4F3H;
+				INFOPLIST_FILE = SWPhotoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhl.SWPhotoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2269E7A211E84300086B24E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77C85696CA97383E06CAD5BE /* Pods-SWPhotoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTT4HQ4F3H;
+				INFOPLIST_FILE = SWPhotoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhl.SWPhotoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2269E7C211E84300086B24E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTT4HQ4F3H;
+				INFOPLIST_FILE = SWPhotoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhl.SWPhotoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWPhotoApp.app/SWPhotoApp";
+			};
+			name = Debug;
+		};
+		F2269E7D211E84300086B24E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTT4HQ4F3H;
+				INFOPLIST_FILE = SWPhotoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhl.SWPhotoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWPhotoApp.app/SWPhotoApp";
+			};
+			name = Release;
+		};
+		F2269E7F211E84300086B24E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTT4HQ4F3H;
+				INFOPLIST_FILE = SWPhotoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhl.SWPhotoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SWPhotoApp;
+			};
+			name = Debug;
+		};
+		F2269E80211E84300086B24E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTT4HQ4F3H;
+				INFOPLIST_FILE = SWPhotoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhl.SWPhotoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SWPhotoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2269E48211E841E0086B24E /* Build configuration list for PBXProject "SWPhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2269E76211E84300086B24E /* Debug */,
+				F2269E77211E84300086B24E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2269E78211E84300086B24E /* Build configuration list for PBXNativeTarget "SWPhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2269E79211E84300086B24E /* Debug */,
+				F2269E7A211E84300086B24E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2269E7B211E84300086B24E /* Build configuration list for PBXNativeTarget "SWPhotoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2269E7C211E84300086B24E /* Debug */,
+				F2269E7D211E84300086B24E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2269E7E211E84300086B24E /* Build configuration list for PBXNativeTarget "SWPhotoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2269E7F211E84300086B24E /* Debug */,
+				F2269E80211E84300086B24E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2269E57211E841F0086B24E /* SWPhotoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2269E58211E841F0086B24E /* SWPhotoApp.xcdatamodel */,
+			);
+			currentVersion = F2269E58211E841F0086B24E /* SWPhotoApp.xcdatamodel */;
+			path = SWPhotoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2269E45211E841E0086B24E /* Project object */;
+}
